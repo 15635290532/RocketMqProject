@@ -17,7 +17,8 @@ public class ProduerController {
     @RequestMapping("/abc")
     public String test(){
 
-        System.out.println("11111");
+        System.out.println("这是主分支.....");
+        System.out.println("从分支....");
 
         String message = messageService.inertIntoMessage();
 
