@@ -17,6 +17,8 @@ public class ProduerController {
     @RequestMapping("/abc")
     public String test(){
 
+        System.out.println("11111");
+
         String message = messageService.inertIntoMessage();
 
         return message;
